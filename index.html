@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-block">
+      <div class="content search">
+        <div class="header">
+          <span class="title">Weather App</span>
+        </div>
+        <div class="line"></div>
+        <div class="container form">
+          <form action="#">
+            <input
+              type="text"
+              name=""
+              class="input City"
+              id="inputCity"
+              placeholder="Podaj miasto"
+            />
+          </form>
+        </div>
+        <div class="line"></div>
+        <button id="buttonLocation">Get By Location</button>
+        <div class="line">or</div>
+        <button id="buttonCity">Get By City Name</button>
+      </div>
+      <div class="content result">
+        <div class="header">
+          <span class="arrow">← </span>
+          <span class="title">Weather App</span>
+        </div>
+        <div class="line"></div>
+
+        <div id="image">
+          <img src="" alt="" id="icon" />
+        </div>
+        <div class="information" id="temperature"></div>
+        <div class="information" id="weatherDescription"></div>
+        <div class="information" id="cityName"></div>
+        <div class="line"></div>
+        <div class="container info">
+          <div class="information" id="humidity"></div>
+          <div class="lower">
+            <div class="information" id="feelsLike"></div>
+            <div class="information" id="pressure"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
