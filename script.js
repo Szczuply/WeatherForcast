@@ -58,4 +58,13 @@ function weatherDetails(info) {
   document.querySelector("#feelsLike").innerHTML = `Odczuwalna: <br /> ${feels_like}℃`;
   document.querySelector("#pressure").innerHTML = ` Ciśnienie: <br /> ${pressure} hPa`;
 }
-console.log("I need to put these codes here because I want GitHub to assign repositories to it that it is in line with JavaScript. I don't know what you have to do with your life to read further, I made this book for predicting the transition between e-books, please do not recommend remarks on what is written here. As I have not finished reading this, have a nice day and best regards. Do you next reading my scribble. Patrick")`
+console.log("I have to put this code here because I want GitHub to attribute to this repository that it is mostly written in JavaScript. I don't know what you have to do with your life to read this further, I made this simple weather forecast between two e-lessons, please don't pay attention to what is written here. If you haven't finished reading it yet, have a nice day and best regards.Hear you next time, at least Until you read my scribbles again. Patric")
+
+
+console.log(`
+▀▀▀▀█▀▀▀▀
+─▄▀█▀▀█──────▄
+█▄▄█▄▄██████▀
+▀▀█▀▀▀█▀▀
+─▀▀▀▀▀▀▀
+`)
